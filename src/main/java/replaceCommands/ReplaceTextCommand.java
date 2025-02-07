@@ -1,5 +1,8 @@
+package replaceCommands;
 
-public class ReplaceTextCommand implements TextCommand{
+import textCommand.TextCommand;
+
+public class ReplaceTextCommand implements TextCommand {
 
   final private String target;
   final private String replacement;

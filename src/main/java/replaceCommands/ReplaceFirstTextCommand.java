@@ -1,3 +1,5 @@
+package replaceCommands;
+
 public class ReplaceFirstTextCommand extends ReplaceTextCommand {
 
   public ReplaceFirstTextCommand(String target, String replacement) {

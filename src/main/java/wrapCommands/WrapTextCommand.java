@@ -1,4 +1,8 @@
-public class WrapTextCommand implements TextCommand {
+package wrapCommands;
+
+import textCommand.TextCommand;
+
+public abstract class WrapTextCommand implements TextCommand {
 
   private final String opening;
   private final String ending;
@@ -24,7 +28,9 @@ public class WrapTextCommand implements TextCommand {
     public String getEnding() {
       return ending;
     }
-  }
+
+  public abstract String executes(String text);
+}
 
 
 
