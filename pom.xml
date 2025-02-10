@@ -15,22 +15,22 @@
   </properties>
 
   <dependencies>
+    <!-- JUnit Jupiter API -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
+      <version>5.11.3</version> <!-- You can replace this with the latest version -->
       <scope>test</scope>
     </dependency>
+
+    <!-- JUnit Jupiter Engine -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.2</version>
+      <version>5.11.3</version> <!-- You can replace this with the latest version -->
       <scope>test</scope>
     </dependency>
   </dependencies>
+
 
 </project>
